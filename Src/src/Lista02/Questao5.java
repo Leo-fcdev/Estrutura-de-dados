@@ -1,3 +1,5 @@
+package Lista02;
+
 import java.util.Scanner;
 
 public class Questao5 {
