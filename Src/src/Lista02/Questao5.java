@@ -16,13 +16,13 @@ public class Questao5 {
         if (sexo == 'F' && horario < 22){
             ingresso = 0;
             System.out.println("Sua entrada é gratuita ");
-        } else if (sexo == 'F' && horario >= 22){
+        } else if (sexo == 'F' && horario > 22){
             ingresso = ingresso / 2;
             System.out.println("Seu ingresso custará: R$ " + ingresso);
         } else if (sexo == 'M' && horario < 22) {
             ingresso = ingresso * 0.7F;
             System.out.println("Seu ingresso custará: R$ " + ingresso);
-        } else if (sexo == 'M' && horario >= 22) {
+        } else if (sexo == 'M' && horario > 22) {
             System.out.println("Seu ingresso custará: R$ " + ingresso);
         } else {
             System.out.println("Dados invalidos");

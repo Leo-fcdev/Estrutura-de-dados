@@ -15,9 +15,7 @@ public class Questao3 {
 
         if (soma % 2 == 0){
             System.out.println("Esse número é par ");
-        }
-
-        else {
+        } else {
             System.out.println("Esse número é ímpar");
         }
     }

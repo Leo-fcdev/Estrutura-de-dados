@@ -16,6 +16,5 @@ public class Questao2 {
         else {
             System.out.println("Tudo normal nas terras de Cuçumarim");
         }
-
     }
 }

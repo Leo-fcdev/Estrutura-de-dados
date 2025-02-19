@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Questao6 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o valor da compra: ");
-        float valorCompra = sc.nextFloat();
+        float valorCompra = scanner.nextFloat();
         float desconto = 0;
 
         if (valorCompra >= 0 && valorCompra < 50){

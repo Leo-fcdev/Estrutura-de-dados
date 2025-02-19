@@ -17,9 +17,7 @@ public class Questao1 {
 
         if (suposto == numero + 1){
             System.out.println("O número " + suposto + " é sucessor de " + numero);
-        }
-
-        else {
+        } else {
             System.out.println("O número " + suposto + " não é sucessor de " + numero);
         }
     }

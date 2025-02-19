@@ -14,9 +14,7 @@ public class Questao4 {
 
         if (media >= 7){
             System.out.println("Você foi aprovado.");
-        }
-
-        else {
+        } else {
             System.out.println("Você foi reprovado. ");
         }
     }
