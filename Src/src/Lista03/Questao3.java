@@ -8,7 +8,7 @@ public class Questao3 {
 
             //multiplicador
             for (int multiplicador = 1; multiplicador <= 10; multiplicador ++){
-                System.out.println(numero + " X " + multiplicador + " = " + (numero * multiplicador));
+                System.out.println(numero + " x " + multiplicador + " = " + (numero * multiplicador));
             }
         }
     }
