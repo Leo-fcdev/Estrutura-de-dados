@@ -11,7 +11,7 @@ public class Questao01 {
         * como eu sei q tenho q armazenar 5 informações o "= new float[]"
         * eu coloco o valor de variaveis q eu quero
         */
-        float dolar[] = new float[5];
+        float[] dolar = new float[5];
 
 
         //Uso um for para repetir uma pergunta ao cliente
