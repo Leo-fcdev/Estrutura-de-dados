@@ -12,5 +12,9 @@ public class Questao02 {
             System.out.println("Escreva a " + (i + 1) + "º linha da sua musica preferida:");
             linha[i] = sc.nextLine();
          }
+
+        for (int c = 9; c >= 0; c--){
+            System.out.println("Letra da musica em ordem inversa: " + linha[c]);
+        }
     }
 }
