@@ -20,7 +20,10 @@ public class Questao01 {
             dolar[i] = sc.nextFloat();
         }
 
-        // E esse for para preco assumir o valor inserido em dolar e repito todas as respostar do sistema
+        /*
+        * E esse for faz com q minha variavel preco acompanhe o vetor de dolar,
+        * repetindo preco a msm quantidade de vezes que dolar
+        */
         for (float preco : dolar){
             System.out.println("O preço do dolar nas casas de câmbio são respectivamente:\n" + preco);
         }
