@@ -7,9 +7,23 @@ public class Questao03 {
         Scanner sc = new Scanner(System.in);
         double[] preco = new double[10];
 
-            for (int i= 0; i < 10; i++){
-                System.out.println("Digite o preço do produto: ");
-                preco[i] = sc.nextDouble();
+        for (int i = 0; i < preco.length; i++) {
+            System.out.println("Digite o preço do " + (i + 1) + "º produto:");
+            preco[i] = sc.nextDouble();
+        }
+
+        double menorPreco = preco[0];
+        int menorIndice = 0;
+
+        for (int i = 0; i < preco.length; i++) {
+            if (preco[i] < menorPreco) {
+                menorPreco = preco[i];
+                menorIndice = i;
             }
+        }
+
+        System.out.println("O menor preço lido pelo programa é: " + menorPreco);
+        System.out.println("Esse foi o " + menorIndice + "º preço lido pelo programa.");
+
     }
-}
+    }
